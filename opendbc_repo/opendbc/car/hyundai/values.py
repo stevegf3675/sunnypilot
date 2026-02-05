@@ -200,10 +200,10 @@ class CAR(Platforms):
   HYUNDAI_GENESIS = HyundaiPlatformConfig(
     [
       # TODO: check 2015 packages
-      HyundaiCarDocs("Hyundai Genesis 2015-16", min_enable_speed=19 * CV.MPH_TO_MS, car_parts=CarParts.common([CarHarness.hyundai_j])),
-      HyundaiCarDocs("Genesis G80 2017", "All", min_enable_speed=19 * CV.MPH_TO_MS, car_parts=CarParts.common([CarHarness.hyundai_j])),
+      HyundaiCarDocs("Hyundai Genesis 2015-16", min_enable_speed=15 * CV.MPH_TO_MS, car_parts=CarParts.common([CarHarness.hyundai_j])),
+      HyundaiCarDocs("Genesis G80 2017", "All", min_enable_speed=15 * CV.MPH_TO_MS, car_parts=CarParts.common([CarHarness.hyundai_j])),
     ],
-    CarSpecs(mass=2060, wheelbase=3.01, steerRatio=16.5, minSteerSpeed=60 * CV.KPH_TO_MS),
+    CarSpecs(mass=2060, wheelbase=3.01, steerRatio=16.5, minSteerSpeed=54 * CV.KPH_TO_MS),
     flags=HyundaiFlags.CHECKSUM_6B | HyundaiFlags.LEGACY,
   )
   HYUNDAI_IONIQ = HyundaiPlatformConfig(
