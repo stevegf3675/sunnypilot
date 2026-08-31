@@ -91,6 +91,9 @@ TASK.md
 CLAUDE.md
 SKILL.md
 
+# local operating procedures
+/COMMA4_UPDATE_PROCESS.md
+
 ### JetBrains ###
 !.idea/customTargets.xml
 !.idea/tools/*
